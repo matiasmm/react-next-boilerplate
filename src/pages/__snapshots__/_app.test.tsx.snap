@@ -1,3 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`_app render without errors 1`] = `ReactWrapper {}`;
+exports[`_app render without errors 1`] = `
+<MyApp
+  Component={[Function]}
+  pageProps={Object {}}
+>
+  <Component>
+    <div>
+      Page example
+    </div>
+  </Component>
+</MyApp>
+`;

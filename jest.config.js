@@ -5,6 +5,7 @@ const config = {
     "\\.(gif|ttf|eot|svg)$": "<rootDir>/fileMock.js",
   },
   setupFiles: ["./jest/setup.ts"],
+  snapshotSerializers: ["enzyme-to-json/serializer"],
 }
 
 module.exports = config
