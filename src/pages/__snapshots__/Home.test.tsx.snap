@@ -2,7 +2,9 @@
 
 exports[`Home render without errors 1`] = `
 <Home>
-  <div>
+  <div
+    className="Home"
+  >
     <Head>
       <_default
         headManager={Object {}}
