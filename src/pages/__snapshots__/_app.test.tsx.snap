@@ -5,10 +5,15 @@ exports[`_app render without errors 1`] = `
   Component={[Function]}
   pageProps={Object {}}
 >
-  <Component>
-    <div>
-      Page example
-    </div>
-  </Component>
+  <RecoilRoot>
+    <Batcher
+      setNotifyBatcherOfChange={[Function]}
+    />
+    <Component>
+      <div>
+        Page example
+      </div>
+    </Component>
+  </RecoilRoot>
 </MyApp>
 `;

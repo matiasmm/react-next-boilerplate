@@ -1,18 +1,22 @@
 import Head from "next/head"
 import styles from "../styles/Home.module.scss"
+import { Input } from "../components/Input"
+import { nameState } from "../states"
+import { useRecoilValue } from "recoil"
 
 export default function Home() {
+  const name = useRecoilValue(nameState)
   return (
     <div className={"Home"}>
       <Head>
-        <title>Create Next App</title>
+        <title>Welcome {name}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Input></Input>
+
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <h1 className={styles.title}>Welcome {name}</h1>
 
         <p className={styles.description}>
           Get started by editing <code className={styles.code}>pages/index.js</code>

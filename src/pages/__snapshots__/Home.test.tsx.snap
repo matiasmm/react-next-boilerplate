@@ -12,14 +12,21 @@ exports[`Home render without errors 1`] = `
         reduceComponentsToState={[Function]}
       />
     </Head>
+    <Input>
+      <div>
+        <p>
+          Enter name
+        </p>
+        <input
+          onChange={[Function]}
+          type="text"
+        />
+      </div>
+    </Input>
     <main>
       <h1>
-        Welcome to 
-        <a
-          href="https://nextjs.org"
-        >
-          Next.js!
-        </a>
+        Welcome 
+        TestName
       </h1>
       <p>
         Get started by editing 
