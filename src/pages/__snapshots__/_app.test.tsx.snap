@@ -5,10 +5,22 @@ exports[`_app render without errors 1`] = `
   Component={[Function]}
   pageProps={Object {}}
 >
-  <Component>
-    <div>
-      Page example
-    </div>
-  </Component>
+  <Provider
+    store={
+      Object {
+        "@@observable": [Function],
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <Component>
+      <div>
+        Page example
+      </div>
+    </Component>
+  </Provider>
 </MyApp>
 `;
